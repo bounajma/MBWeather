@@ -14,7 +14,6 @@ s.source = { :git => "https://github.com/bounajma/MBWeather.git",
              :tag => "#{s.version}" }
 s.framework = "UIKit"
 s.source_files = "MBWeather/**/*.{swift}"
-s.resources = "MBWeather/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 s.swift_version = "5.5.2"
 
 end
