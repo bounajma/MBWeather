@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		86D4374728931FD8003F74A0 /* MBWeather.docc in Sources */ = {isa = PBXBuildFile; fileRef = 86D4374628931FD8003F74A0 /* MBWeather.docc */; };
 		86D4374D28931FD8003F74A0 /* MBWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D4374228931FD8003F74A0 /* MBWeather.framework */; };
 		86D4375228931FD8003F74A0 /* MBWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D4375128931FD8003F74A0 /* MBWeatherTests.swift */; };
 		86D4375328931FD8003F74A0 /* MBWeather.h in Headers */ = {isa = PBXBuildFile; fileRef = 86D4374528931FD8003F74A0 /* MBWeather.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -34,7 +33,6 @@
 /* Begin PBXFileReference section */
 		86D4374228931FD8003F74A0 /* MBWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBWeather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86D4374528931FD8003F74A0 /* MBWeather.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBWeather.h; sourceTree = "<group>"; };
-		86D4374628931FD8003F74A0 /* MBWeather.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MBWeather.docc; sourceTree = "<group>"; };
 		86D4374C28931FD8003F74A0 /* MBWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86D4375128931FD8003F74A0 /* MBWeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBWeatherTests.swift; sourceTree = "<group>"; };
 		86D437702894866B003F74A0 /* WeatherResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherResponse.swift; sourceTree = "<group>"; };
@@ -90,7 +88,6 @@
 				86D437722894866B003F74A0 /* Main */,
 				86D4376F2894866B003F74A0 /* Model */,
 				86D4374528931FD8003F74A0 /* MBWeather.h */,
-				86D4374628931FD8003F74A0 /* MBWeather.docc */,
 			);
 			path = MBWeather;
 			sourceTree = "<group>";
@@ -241,7 +238,6 @@
 				86D4377B2894866B003F74A0 /* WeatherEndpoint.swift in Sources */,
 				86D4377C2894866B003F74A0 /* APIManager.swift in Sources */,
 				86D4377E2894866B003F74A0 /* RequestMethod.swift in Sources */,
-				86D4374728931FD8003F74A0 /* MBWeather.docc in Sources */,
 				86D437792894866B003F74A0 /* WeatherResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
