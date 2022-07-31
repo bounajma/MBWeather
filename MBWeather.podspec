@@ -6,7 +6,7 @@ s.ios.deployment_target = '11.0'
 s.name = "MBWeather"
 s.summary = "MBWeather helps user get weather info by typing just the city name."
 s.requires_arc = true
-s.version = "0.5.0"
+s.version = "0.6.0"
 s.license = { :type => "MIT", :file => "LICENSE" }
 s.author = { "Mohamed BOUNAJMA" => "bounajmamohamed@gmail.com" }
 s.homepage = "https://github.com/bounajma/MBWeather"
