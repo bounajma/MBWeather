@@ -23,7 +23,7 @@ public class SearchTownManager {
         completion: a closue of type (Result<[GeoCode], RequestError>) -> ()
      */
     
-    static func searchTownByName(_ name: String, limit: Int, completion: @escaping (Result<[GeoCode], RequestError>) -> ()) {
+    public static func searchTownByName(_ name: String, limit: Int, completion: @escaping (Result<[GeoCode], RequestError>) -> ()) {
         
         let endpoint = GeoCodeEndpoint(q: name, limit: limit)
         WeatherAPIManager.sendRequest(endpoint: endpoint, responseModel: [GeoCode].self) { result in

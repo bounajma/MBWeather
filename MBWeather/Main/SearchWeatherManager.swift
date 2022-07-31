@@ -23,7 +23,7 @@ public class SearchWeatherManager {
         completion: a closue of type (Result<WeatherResponse, RequestError>) -> ()
      */
     
-    static func getTownWeather(lat: Double,lon: Double, completion: @escaping (Result<WeatherResponse, RequestError>) -> ()) {
+    public static func getTownWeather(lat: Double,lon: Double, completion: @escaping (Result<WeatherResponse, RequestError>) -> ()) {
         
         let weatherEndpoint = WeatherEndpoint(lat: lat, lon: lon)
         WeatherAPIManager.sendRequest(endpoint: weatherEndpoint, responseModel: WeatherResponse.self) { response in
